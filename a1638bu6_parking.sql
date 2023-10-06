@@ -47,8 +47,8 @@ CREATE TABLE `bookings` (
 --
 
 INSERT INTO `bookings` (`id`, `booking_id`, `customer_id`, `customer_name`, `contact_number`, `vehicle_category`, `vehicle_number`, `slot_name`, `vehicle_in_time`, `parking_charge`, `created_at`, `updated_at`) VALUES
-(8, '#P650e87aac6cb9', 9, 'Raj kamal pandey', 2147483647, 'Four Wheelers', 'BK-123', 'fw-1', NULL, 50, '2023-09-23 06:43:37', '2023-09-23 06:43:37'),
-(9, '#P650e89be19240', 9, 'Raj kamal pandey', 2147483647, 'Four Wheelers', 'BK-123', 'fw-1', NULL, 50, '2023-09-23 06:46:34', '2023-09-23 06:46:34'),
+(8, '#P650e87aac6cb9', 9, 'user1', 2147483647, 'Four Wheelers', 'BK-123', 'fw-1', NULL, 50, '2023-09-23 06:43:37', '2023-09-23 06:43:37'),
+(9, '#P650e89be19240', 9, 'user1', 2147483647, 'Four Wheelers', 'BK-123', 'fw-1', NULL, 50, '2023-09-23 06:46:34', '2023-09-23 06:46:34'),
 (10, '#P650e8b2bd0e65', 9, 'new', 2147483647, 'Four Wheelers', 'Sk-569', 'fw-1', NULL, 50, '2023-09-23 06:52:56', '2023-09-23 06:52:56'),
 (11, '#P650e8dce4ac06', 9, 'new endlk', 456123213, 'Four Wheelers', 'Sk-569', 'fw-1', NULL, 50, '2023-09-23 07:04:35', '2023-09-23 07:04:35'),
 (12, '#P650e8e1b27b7b', 9, 'fsdfsd', 2147483647, 'Four Wheelers', 'BK-123', 'fw-1', NULL, 50, '2023-09-23 07:06:27', '2023-09-23 07:06:27'),
@@ -238,7 +238,7 @@ CREATE TABLE `users` (
 
 INSERT INTO `users` (`id`, `role`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
 (1, 'admin', 'Admin', 'admin@gmail.com', NULL, '$2y$10$bsfAXkaT/04XhQmENGPFj.us.RCs6HIIC8twHGQ0CGwM/4HJwQEfy', NULL, '2023-07-08 05:56:13', '2023-09-23 12:20:04'),
-(9, 'user', 'Raj kamal pandey', 'Rkpdfwa1@gmail.com', NULL, '$2y$10$u73bvNDsXmRJmZDF1YkM5ehE/ii6dTFZJiO1evT.ydOGEYN0up7/C', NULL, '2023-09-22 05:33:18', '2023-09-22 05:59:09'),
+(9, 'user', 'user1', 'Rkpdfwa1@gmail.com', NULL, '$2y$10$u73bvNDsXmRJmZDF1YkM5ehE/ii6dTFZJiO1evT.ydOGEYN0up7/C', NULL, '2023-09-22 05:33:18', '2023-09-22 05:59:09'),
 (12, 'user', 'Kumar', 'kumar@gmail.com', NULL, '$2y$10$R/OjZ3b3rXjaTm/Yecj0NuHE07pLmjFv5UqVqyNNeBPnaT6UtFUcK', NULL, '2023-09-22 13:06:33', '2023-09-22 13:06:33'),
 (13, 'user', 'testing', 'testing@gmail.com', NULL, '$2y$10$8aiuXEiefKYMsyIhafEW8etfp0nIWivd0KD5vOF/V0zj7qVE2AjNi', NULL, '2023-09-23 07:33:19', '2023-09-23 07:33:19'),
 (14, 'user', 'new user', 'newuser@gmail.com', NULL, '$2y$10$HY6LUzbB0dVo8cfw/feXX.0uM2WDqF2rEmgv4QcgO6teXPnVjg7Bm', NULL, '2023-09-23 11:41:54', '2023-09-23 11:41:54'),
